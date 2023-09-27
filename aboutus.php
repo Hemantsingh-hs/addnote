@@ -41,13 +41,17 @@ else{
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <style>
-/* @import url('partials/hemant.jpeg'); */
+
+
+
+ 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 .about-us{
   height: 100vh;
   width: 100%;
@@ -116,6 +120,34 @@ span{
 .text p{
     font-size: 15px;
 }
+@media (max-width: 768px) {
+        /* Adjust the section for smaller screens */
+        .about-us {
+            padding: 30px 0;
+        }
+        .about {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .pic {
+            width: 100%;
+            max-width: 300px;
+            margin-top: 20px;
+        }
+        .text {
+            width: 90%; /* Adjust the text width for better readability on small screens */
+        }
+        .text h2 {
+            font-size: 40px; /* Reduce the font size for smaller screens */
+        }
+        .text h5 {
+            font-size: 18px; /* Reduce the font size for smaller screens */
+        }
+        .text p {
+            font-size: 14px; /* Reduce the font size for smaller screens */
+        }
+    }
  </style>
  <body>
     <?php

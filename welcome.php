@@ -103,7 +103,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     });
   </script>
  
-
+ <style>
+        /* Add your custom styles here */
+        /* Responsive styles */
+       
+    </style>
   </head>
   <body>
 <?php
